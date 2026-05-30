@@ -49,6 +49,9 @@ img {
     display: block;
     margin: auto;
     border-radius: 15px;
+
+    max-width: 100%;
+    height: auto;
 }
 button {
   background-color: rgb(177, 209, 250);
@@ -191,18 +194,49 @@ p {
     align-items: center;
     gap: 10px;
 }
+
 @media (max-width: 768px) {
+
+    h1 {
+        font-size: 40px;
+        padding-top: 25px;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .facts {
+        font-size: 20px;
+        line-height: 1.6;
+    }
+
     .music-player {
         width: 90%;
         margin: 20px auto;
-        display: block;
+        padding: 15px;
     }
 
-    .music-controls {
-        gap: 20px;
+    .music-btn {
+        font-size: 40px;
+    }
+
+    #time {
+        font-size: 18px;
     }
 
     #progress {
-        max-width: 100%;
+        height: 12px;
+    }
+
+    img {
+        width: 90%;
+        height: auto;
     }
 }
