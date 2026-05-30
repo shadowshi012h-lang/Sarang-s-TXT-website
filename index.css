@@ -4,31 +4,10 @@ body {
     background-color: rgb(237, 241, 248);
 }
 
-h1 {
-   color: white;
-   background-color: rgb(71, 108, 156);;
-   padding-top: 37px;
-   padding-bottom: 25px;
-   padding-left: 18px;
-   margin-top: 0;
-   font-size: 45;
-}
-
-h2 {
-    text-align: center;
-    list-style: none;
-    font-size: 35;
-}
-
 .label {
     background-color:rgb(177, 209, 250); 
     padding: 1px 3px;
     font-weight: bold;
-}
-
-p {
-    text-align: center;
-}
 
 .title-container{
     text-align: center;
@@ -75,10 +54,6 @@ button {
 
 .soobin {
     color: rgb(177, 209, 250);
-}
-p {
-    color: black;
-    font-size: 20px
 }
 .yeonjun {
     color: rgb(146, 88, 151);
@@ -198,13 +173,34 @@ p {
 }
 
 @media (max-width: 768px) {
-    
+
+    h1 {
+   color: white;
+   background-color: rgb(71, 108, 156);;
+   padding-top: 37px;
+   padding-bottom: 25px;
+   padding-left: 18px;
+   margin-top: 0;
+   font-size: 45;
+}
+
+h2 {
+    text-align: center;
+    list-style: none;
+    font-size: 35;
+}
+
     .music-player {
         width: 100%;
         margin: 20px auto;
         padding: 15px;
     }
 
+    p {
+    color: black;
+    font-size: 20px
+    text-align: center;
+}
     .music-btn {
         font-size: 40px;
     }
