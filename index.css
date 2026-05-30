@@ -191,9 +191,18 @@ p {
     align-items: center;
     gap: 10px;
 }
+@media (max-width: 768px) {
+    .music-player {
+        width: 90%;
+        margin: 20px auto;
+        display: block;
+    }
 
-.progress-container {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+    .music-controls {
+        gap: 20px;
+    }
+
+    #progress {
+        max-width: 100%;
+    }
 }
