@@ -8,14 +8,16 @@ h1 {
    color: white;
    background-color: rgb(71, 108, 156);;
    padding-top: 37px;
-   padding-bottom: 20px;
+   padding-bottom: 25px;
    padding-left: 18px;
    margin-top: 0;
+   font-size: 45;
 }
 
 h2 {
     text-align: center;
     list-style: none;
+    font-size: 35;
 }
 
 .label {
@@ -76,7 +78,7 @@ button {
 }
 p {
     color: black;
-    font-size: 14px
+    font-size: 20px
 }
 .yeonjun {
     color: rgb(146, 88, 151);
@@ -196,27 +198,7 @@ p {
 }
 
 @media (max-width: 768px) {
-
-    h1 {
-        font-size: 45px;
-        padding-top: 25px;
-        padding-bottom: 15px;
-        text-align: center;
-    }
-
-    h2 {
-        font-size: 35px;
-    }
-
-    p {
-        font-size: 30px;
-    }
-
-    .facts {
-        font-size: 30px;
-        line-height: 1.6;
-    }
-
+    
     .music-player {
         width: 100%;
         margin: 20px auto;
