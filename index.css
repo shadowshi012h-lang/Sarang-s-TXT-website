@@ -1,0 +1,199 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(237, 241, 248);
+}
+
+h1 {
+   color: white;
+   background-color: rgb(71, 108, 156);;
+   padding-top: 37px;
+   padding-bottom: 20px;
+   padding-left: 18px;
+   margin-top: 0;
+}
+
+h2 {
+    text-align: center;
+    list-style: none;
+}
+
+.label {
+    background-color:rgb(177, 209, 250); 
+    padding: 1px 3px;
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+}
+
+.title-container{
+    text-align: center;
+}
+
+.facts-title {
+    color: black;
+    list-style: none;
+    background-color: rgb(177, 209, 250); 
+    display: inline-block;
+    padding: 1px 3px;
+    border-radius: 2px;
+}
+
+.facts{
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+}
+button {
+  background-color: rgb(177, 209, 250);
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.txt{
+    color: rgb(71, 108, 156);
+}
+
+.x{
+    background-color: rgb(126, 163, 212);
+    padding: 1px 3px;
+    font-weight: bold;
+}
+
+.soobin {
+    color: rgb(177, 209, 250);
+}
+p {
+    color: black;
+    font-size: 14px
+}
+.yeonjun {
+    color: rgb(146, 88, 151);
+}
+.j{
+    background-color: rgb(146, 88, 151);
+    padding: 1px 3px;
+    font-weight: bold;
+}
+.y{
+   color: black;
+    list-style: none;
+    background-color: rgb(146, 88, 151); 
+    display: inline-block;
+    padding: 1px 3px;
+    border-radius: 2px;
+}
+.beomgyu {
+    color: rgb(250, 204, 235);
+}
+.b{
+    background-color:rgb(250, 204, 235) ;
+    padding: 1px 3px;
+    font-weight: bold;
+}
+.gyu{
+    color: black;
+    list-style: none;
+     background-color:rgb(250, 204, 235) ;
+    display: inline-block;
+    padding: 1px 3px;
+    border-radius: 2px;
+}
+
+.taehyun {
+    color: rgb(168, 169, 79);
+}
+.t{
+     background-color:  rgb(168, 169, 79);
+    padding: 1px 3px;
+    font-weight: bold;
+}
+.tae{
+     color: black;
+    list-style: none;
+    background-color:  rgb(168, 169, 79);
+    display: inline-block;
+    padding: 1px 3px;
+    border-radius: 2px;
+}
+.hyuka {
+    color: rgb(175, 205, 244);
+}
+.h{
+    background-color:  rgb(175, 205, 244);
+    padding: 1px 3px;
+    font-weight: bold;
+}
+.k{
+    color: black;
+    list-style: none;
+    background-color: rgb(175, 205, 244);
+    display: inline-block;
+    padding: 1px 3px;
+    border-radius: 2px;
+}
+
+.music-player {
+    display: inline-block;
+    background-color: rgb(71, 108, 156);
+    padding: 3px 6px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+
+
+.music-btn {
+    color: rgb(21, 40, 64);
+    background: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.music-btn:hover {
+
+    transform: scale(1.2);
+    opacity: 0.7;
+}
+
+#time {
+    font-size: 14px;
+    color: rgb(21, 40, 64);
+    white-space: nowrap;
+}
+
+#progress {
+    width: 100%;
+    max-width: 220px;
+    cursor: pointer;
+}
+
+.music-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px; /* this creates your “airy spaced icons” look */
+    margin-top: 12px;
+}
+
+.progress-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.progress-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
